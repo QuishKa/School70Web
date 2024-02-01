@@ -1,0 +1,94 @@
+.body {
+    height: fit-content;
+}
+
+.header-section {
+    width: 100%; 
+    height: fit-content; 
+    display: inline-block; 
+    position: relative;
+}
+
+.logo {
+    width: 90px;
+    height: 100px;
+    margin: 10px;
+    top: 0;
+    left: 0;
+}
+
+.button-flex {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+    width: 180px;
+    height: 50px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-family: 'Rubik';
+    font-size: 1.1em;
+    text-align: center;
+    padding: 0px;
+    line-height: 50px;
+    background-color:#FAFBFC;
+    border: 2px outset rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+}
+
+.button:hover {
+    color: #FAFBFC;
+    background-color: blue;
+}
+
+.news-section {
+    margin: 2vw;
+    width: 45%;
+    height: fit-content;
+    display: inline-block; 
+    position: relative;
+}
+
+.news-contents {
+    width: 100%;
+    height: 20vw;
+    border: 2px outset rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+.controls-section {
+    margin: 2vw;
+    width: 45%;
+    height: fit-content;
+    display: inline-block; 
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.controls-contents {
+    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+    width: 100%;
+    height: 10vw;
+    font-family: 'Rubik';
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0px;
+    line-height: 10vw;
+    background-color:rgba(128, 255, 0, 0.801);
+    border: 2px outset rgba(0, 0, 0, 0.3);
+}
+
+.controls-contents:hover {
+    background-color: rgb(99, 189, 9);
+}
